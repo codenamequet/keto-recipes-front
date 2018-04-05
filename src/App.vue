@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
-    <Header></Header>
+    <Navbar></Navbar>
     <router-view/>
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header'
+import Navbar from '@/components/Navbar'
 export default {
   name: 'App',
   components: {
-    Header
+    Navbar
   }
 }
 </script>
