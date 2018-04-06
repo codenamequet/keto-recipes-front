@@ -15,10 +15,18 @@
     <li>Naturally Gluten Free</li>
     <li>Proven to treat many deceases such as Epilepsy, PCOS, Neurodegenerative, and Cancer</li>
 </ul>
+  <p>{{ message }}</p>
 </div>
 </template>
 
 <script>
+export default {
+    data () {
+        return {
+            message: 'testing render statements'
+        }
+    }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
